@@ -8,6 +8,7 @@ body{
     font-style: normal;
     font-variation-settings:
     "wdth" 100;
+    background: radial-gradient(circle, #D8968F, #FAF8F1);
 }
 
 /* === HEADER === */
@@ -31,7 +32,7 @@ header h1{
     align-items: center;
 }
 #contenedor-titulo img{
-    width: 130px;
+    width: 150px;
 }
 #idioma-enlace{
     display: flex;
@@ -54,4 +55,47 @@ header h1{
     color: #FAF8F1;
     border-radius: 5px;
     font-weight: bold;
+}
+
+/* === MAIN === */
+/* - seccion-bienvenida - */
+#seccion-bienvenida{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+#perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#perfil-p{
+    background-color: #919869;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #FAF8F1;
+    border-radius: 5px;
+    width: auto;
+}
+#seccion-bienvenida img{
+    width: 400px;
+    padding: 10px;
+}
+#bienvenida{
+    padding: 25px;
+    background-color: #FAF8F1;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 40px;
+    width: auto;
+    margin-top: 20px;
+    font-size: 17px;
+    color: #535231;
+}
+#p-texto{
+    text-align: left;
 }
