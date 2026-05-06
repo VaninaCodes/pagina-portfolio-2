@@ -11,6 +11,38 @@ body{
     background: radial-gradient(circle, #D8968F, #FAF8F1);
 }
 
+/* === NAV === */
+nav{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(#CAD19F, #D8968F);
+    background-color: ;
+    align-items: center;
+    padding: 10px 20px;
+    width: auto;
+    color: #FAF8F1;
+    font-weight: bold;
+}
+nav p{
+    font-size: 20px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: #FAF8F1;
+    font-weight: bold;
+}
+nav a:hover{
+    text-decoration: none;
+    color: #535231;
+    font-weight: bold;
+}
+
 /* === HEADER === */
 header{
     background-color: #CAD19F;
@@ -28,11 +60,15 @@ header h1{
 #contenedor-titulo{
     display: grid;
     grid-template-columns: auto auto auto;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    text-shadow: 0px 4px 10px #a3a19c;;
 }
-#contenedor-titulo img{
-    width: 150px;
+#escarabajo-img{
+    width: 250px;
+}
+#mono-img{
+    width: 180px;
 }
 #idioma-enlace{
     display: flex;
@@ -47,6 +83,7 @@ header h1{
     color: #FAF8F1;
     border-radius: 5px;
     font-weight: bold;
+    box-shadow: 0px 4px 10px #535231;
 }
 #idioma-enlace a:hover{
     text-decoration: none;
@@ -80,6 +117,7 @@ header h1{
     color: #FAF8F1;
     border-radius: 5px;
     width: auto;
+    box-shadow: 0px 4px 10px #535231;
 }
 #seccion-bienvenida img{
     width: 400px;
@@ -95,6 +133,7 @@ header h1{
     margin-top: 20px;
     font-size: 17px;
     color: #535231;
+    box-shadow: 0px 4px 10px #b9b7b3;
 }
 #p-texto{
     text-align: left;
