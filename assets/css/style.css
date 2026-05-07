@@ -6,8 +6,6 @@ body{
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    font-variation-settings:
-    "wdth" 100;
     background: radial-gradient(circle, #D8968F, #FAF8F1);
 }
 
@@ -16,7 +14,6 @@ nav{
     display: flex;
     justify-content: space-between;
     background: linear-gradient(#CAD19F, #D8968F);
-    background-color: ;
     align-items: center;
     padding: 10px 20px;
     width: auto;
@@ -137,4 +134,41 @@ header h1{
 }
 #p-texto{
     text-align: left;
+}
+
+/* - seccion-sobremi - */
+#seccion-sobremi h2{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #919869;
+    font-size: 70px;
+    padding: 30px;
+    text-align: center;
+    margin-top: 35px;
+}
+#seccion-sobremi h3{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #FAF8F1;
+    font-size: 35px;
+    padding: 30px;
+    text-align: left;
+    margin-top: 35px;
+}
+#educacion{
+    background-color: #d3b4ab;
+    border-radius: 5px;
+    width: fit-content;
+    box-shadow: 0px 4px 10px #8f6662;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FAF8F1;
+}
+#educacion ul{
+    
 }
