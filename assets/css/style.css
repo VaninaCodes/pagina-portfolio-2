@@ -3,7 +3,9 @@
 
 /* === BODY ===*/
 body{
-    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif !important;
     font-optical-sizing: auto;
     font-style: normal;
     background: radial-gradient(circle, #D8968F, #FAF8F1);
@@ -11,33 +13,29 @@ body{
 
 /* === NAV === */
 nav{
-    display: flex;
-    justify-content: space-between;
     background: linear-gradient(#CAD19F, #D8968F);
-    align-items: center;
     padding: 10px 20px;
     width: auto;
-    color: #FAF8F1;
+    color: #FAF8F1 !important; 
     font-weight: bold;
+}
+nav .navbar-collapse {
+    justify-content: flex-end;
 }
 nav p{
-    font-size: 20px;
+    font-size: 20px ; 
 }
 nav ul{
-    display: flex;
-    justify-content: space-around;
     gap: 15px;
     list-style: none;
+    display: flex;
+    justify-content: right !important;
 }
 nav a{
-    text-decoration: none;
-    color: #FAF8F1;
-    font-weight: bold;
+    color: #FAF8F1 !important;
 }
 nav a:hover{
-    text-decoration: none;
-    color: #535231;
-    font-weight: bold;
+    color: #535231 !important;
 }
 
 /* === HEADER === */
@@ -47,7 +45,7 @@ header{
     width: auto;
 }
 header h1{
-    font-family: "Ubuntu", sans-serif;
+    font-family: "Ubuntu", sans-serif !important;
     font-weight: 700;
     font-style: normal;
     color: #FAF8F1;
@@ -59,7 +57,6 @@ header h1{
     grid-template-columns: auto auto auto;
     justify-content: space-around;
     align-items: center;
-    text-shadow: 0px 4px 10px #a3a19c;;
 }
 #escarabajo-img{
     width: 250px;
